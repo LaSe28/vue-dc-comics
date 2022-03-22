@@ -53,10 +53,22 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 7rem;
   }
   li {
+    padding: 1rem;
     list-style: none;
     display: inline;
-    padding: 1rem;
+    a{
+      padding-bottom: 2.7rem;
+      border-bottom: 5px solid transparent;
+      text-decoration: none;
+      color: black;
+      line-height: 7rem;
+      &:hover{
+      border-color:  #3880F1;
+      color:#3880F1 ;
+      }
+    }
   }
 </style>
