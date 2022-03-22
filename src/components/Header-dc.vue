@@ -62,7 +62,7 @@ export default {
     display: inline;
     text-transform: uppercase;
     a{
-      padding-bottom: 2.7rem;
+      padding-bottom: 2.6rem;
       border-bottom: 5px solid transparent;
       text-decoration: none;
       color: black;
