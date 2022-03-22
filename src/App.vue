@@ -2,6 +2,7 @@
   <div id="app">
     <HeaderDc/>
     <ContentDc/>
+    <FooterDc/>
   </div>
 </template>
 
@@ -9,12 +10,15 @@
 import HeaderDc from './components/Header-dc.vue'
 // eslint-disable-next-line
 import ContentDc from './components/Main.vue'
+// eslint-disable-next-line
+import FooterDc from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderDc,
-    ContentDc
+    ContentDc,
+    FooterDc
   }
 }
 </script>

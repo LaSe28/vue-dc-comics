@@ -1,12 +1,14 @@
 <template>
-<main class="container">
+<main>
   <div style="height: 5rem; background-color: black;"></div>
-  <ul>
-    <li v-for="(element, index) in services" :key="index">
-      <img :src="element.img" alt="">
-      <a href="">{{element.text}}</a>
-    </li>
-  </ul>
+  <div class="container">
+    <ul>
+      <li v-for="(element, index) in services" :key="index">
+        <img :src="element.img" alt="">
+        <a href="">{{element.text}}</a>
+      </li>
+    </ul>
+  </div>
 </main>
 </template>
 
@@ -34,7 +36,7 @@ export default {
         },
         {
           text: 'dc power visa',
-          img: 'dc-power-visa.svg'
+          img: '../assets/img/buy-dc-power-visa.svg'
         }
       ]
     }
