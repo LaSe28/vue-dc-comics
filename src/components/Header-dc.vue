@@ -49,6 +49,7 @@ export default {
 }
 </script>
 <style scoped lang="scss">
+  @import '@/assets/styles/partials/variables';
   header{
     display: flex;
     justify-content: space-between;
@@ -59,6 +60,7 @@ export default {
     padding: 1rem;
     list-style: none;
     display: inline;
+    text-transform: uppercase;
     a{
       padding-bottom: 2.7rem;
       border-bottom: 5px solid transparent;
@@ -66,8 +68,8 @@ export default {
       color: black;
       line-height: 7rem;
       &:hover{
-      border-color:  #3880F1;
-      color:#3880F1 ;
+      border-color: $main-blue;
+      color: $main-blue;
       }
     }
   }
