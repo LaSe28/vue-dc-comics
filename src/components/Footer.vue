@@ -149,7 +149,7 @@ export default {
 }
 </script>
 <style scoped lang="scss">
-  @import '@/assets/styles/partials/variables';
+  @import '../assets/styles/partials/variables';
   footer{
     background: url(../assets/img/footer-bg.jpg);
     .footer-container{

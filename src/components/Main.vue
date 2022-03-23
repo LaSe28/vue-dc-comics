@@ -139,7 +139,7 @@ export default {
 }
 </script>
 <style scoped lang="scss">
-  @import '@/assets/styles/partials/variables';
+  @import '../assets/styles/partials/variables';
   .jumbo{
     background: url(../assets/img/jumbotron.jpg);
     height: 500px;
