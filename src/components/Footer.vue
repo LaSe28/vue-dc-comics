@@ -27,7 +27,9 @@
         </li>
       </ul>
     </div>
-    <img src="../assets/img/dc-logo-bg.png" alt="">
+    <div class="image-container">
+      <img src="../assets/img/dc-logo-bg.png" alt="">
+    </div>
   </div>
   <div class="footer-bottom">
     <div class="container">
@@ -154,13 +156,17 @@ export default {
       display: flex;
       justify-content: space-between;
       height: 370px;
+      overflow: hidden;
+      .image-container{
+        align-self: center;
+      }
     }
     .list-container{
       height: 370px;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      align-items: start;
+      align-items: flex-start;
       padding-top: 2rem;
       padding-bottom:2rem ;
       h3{
@@ -199,7 +205,7 @@ export default {
         display: flex;
         align-items: center;
         h3{
-          color: white;
+          color: $main-blue;
           padding: 1rem;
           text-transform: uppercase;
         }
