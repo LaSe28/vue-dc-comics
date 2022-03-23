@@ -26,9 +26,8 @@ export default {
     .thumb{
       height: 160px;
       overflow: hidden;
-      img{
-        width: 160px;
-      }
+    }img{
+      width: 150px;
     }
   }
   h4{
