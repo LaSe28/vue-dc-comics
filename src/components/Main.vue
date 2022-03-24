@@ -1,14 +1,16 @@
 <template>
 <main>
   <div class="jumbo"></div>
-  <div style="background-color: #1c1c1c;  text-align: center;">
+  <div style="background-color: #1c1c1c;">
     <div style="position: relative;" class="container slides">
-    <div class="small-banner">CURRENT SERIES</div>
+      <div class="small-banner">CURRENT SERIES</div>
       <SlideMain v-for="game in games" :key="game.series" class="game"
       :img="game.thumb"
       :title="game.series"/>
     </div>
-    <button>LOAD MORE</button>
+    <div style="text-align: center;">
+      <button>LOAD MORE</button>
+    </div>
   </div>
   <div class="menu">
     <div class="container">
@@ -156,6 +158,7 @@ export default {
     background-color: $main-blue;
     color: white;
     font-size: 1.5rem;
+    text-align: center;
   }
   ul{
     display: flex;
